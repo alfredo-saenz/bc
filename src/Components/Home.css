@@ -1,0 +1,37 @@
+@font-face {
+    font-family: norwester;
+    src: url(../Fonts/norwester\ copy.otf);
+}
+.landing-section {
+    background-color: #EAE294;
+}
+
+.welcome {
+    font-family: norwester;
+}
+
+@media only screen and (max-width: 767px){
+
+    
+    img {
+        
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        width: 345px;
+        height: 345px;
+       
+    }
+    
+    .welcome{
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 48px;
+        text-align: center;
+        color: #FFFFFF;
+        
+    }
+
+ 
+}

@@ -13,7 +13,7 @@ function Navbar(props) {
     return (
         <>
         <header>
-            <img className='navbar-logo' src=''/>
+            {/* <img className='navbar-logo' src=''/> */}
             <nav className='navbar' ref={navRef}>
                 <a>About</a>
                 <a>Location</a>
