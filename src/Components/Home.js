@@ -1,16 +1,11 @@
 import React from 'react';
+import Navbar from './Navbar';
 
 function Home(props) {
     return (
-        <header>
-            <img className='navbar-logo' src=''/>
-            <nav>
-                <a>About</a>
-                <a>Location</a>
-                <a>Find Us</a>
-                <a>Order Now</a>
-            </nav>
-        </header>
+        <>
+        <Navbar/>
+        </>
     );
 }
 
