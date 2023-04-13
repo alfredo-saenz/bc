@@ -2,6 +2,7 @@ import React from 'react';
 import './Navbar.css'
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { useRef } from 'react'
+import Homelogo from '../Images/Untitled_Artwork 7.png'
 
 function Navbar(props) {
     const navRef = useRef();
@@ -13,7 +14,14 @@ function Navbar(props) {
     return (
         <>
         <header>
-            {/* <img className='navbar-logo' src=''/> */}
+            <div className='navbar-logo'>
+            <img  className='homelogo' src={Homelogo}/>
+
+			<button className='nav-btn nav-open-btn' onClick={showNavbar}>
+				<FaBars />
+			</button>
+            </div>
+                {/* <img className='homelogo' src={Homelogo}/> */}
             <nav className='navbar' ref={navRef}>
                 <a>About</a>
                 <a>Location</a>
@@ -27,9 +35,6 @@ function Navbar(props) {
 			
             </nav>
             {/* This is the hamburger button for the navbar */}
-			<button className='nav-btn' onClick={showNavbar}>
-				<FaBars />
-			</button>
         </header>
         </>
     );

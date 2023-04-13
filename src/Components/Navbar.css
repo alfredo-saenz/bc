@@ -1,8 +1,22 @@
-@media only screen and (max-width: 767px){
+header .nav-btn {
+    padding: 5px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    visibility: hidden;
+    opacity: 0;
+    font-size: 1rem;
+}
 
+@media only screen and (max-width: 767px){
+    
     header {
         background-color: #252525;
         height: 80px;
+        border: 1px solid red;
+        display: block;
     }
     header .nav-btn {
         visibility: visible;
@@ -24,7 +38,7 @@
         transition: 1s;
         transform: translateY(-100vh);     
     }
-
+    
     header .responsive_nav{
         transform: none;
     }
@@ -34,11 +48,25 @@
         top: 2rem;
         right: 2rem;
     }
-
+    
     nav a {
         font-size: 1.5rem;
         color: white;
     }
+    
+    .homelogo {
+        display: flex;
+        width: 96px;
+        height: 62.06px;
+        padding-top: 9px;
+        padding-bottom: 19.4;
+        margin-left: auto; 
+        margin-right: auto;
+       
+    }
 
+    .navbar-logo {
+        display: flex;
+    }
     
 }
