@@ -1,0 +1,238 @@
+@font-face {
+  font-family: norwester;
+  src: url(../Fonts/norwester\ copy.otf);
+}
+.landing-section {
+  background-color: #eae294;
+}
+
+.welcome {
+  font-family: norwester;
+}
+
+@media only screen and (max-width: 767px) {
+  .landing-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width: 345px;
+    height: 345px;
+  }
+
+  .welcome {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .landing-btn {
+    color: #ffffff;
+    border: none;
+    width: 143px;
+    height: 44px;
+    background: #f7cb15;
+    font-family: norwester;
+    font-weight: 400;
+    font-size: 16px;
+    /* border: 1px solid red; */
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+  }
+
+  .btn-group {
+    display: grid;
+    /* border: 1px solid red; */
+  }
+
+  #landing-btn1 {
+    margin-top: 34px;
+    margin-bottom: 10px;
+  }
+
+  #landing-btn2 {
+    margin-top: 10px;
+    margin-bottom: 34px;
+  }
+
+  .our-history {
+    font-family: "Norwester";
+    font-size: 32px;
+    text-align: center;
+    color: #252525;
+    padding-top: 45px;
+  }
+
+  .about-us-story {
+    font-family: "Kollektif";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 23px;
+    color: #252525;
+  }
+
+  .heart {
+    display: block;
+    width: 210px;
+    height: 210px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .location-section {
+    background: #91cbd9;
+  }
+
+  .location-title {
+    padding-top: 45px;
+    font-family: "Norwester";
+    font-size: 32px;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .location-time {
+    font-family: "Kollektif";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 35px;
+    margin-top: 43px;
+    margin-left: 25px;
+    margin-right: 25px;
+    color: #ffffff;
+  }
+
+  .location-address {
+    font-family: "Kollektif";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    margin-top: 45px;
+    margin-left: 25px;
+    margin-right: 25px;
+    color: #ffffff;
+  }
+
+  .location-contact {
+    font-family: "Kollektif";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 45px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-bottom: 69px;
+    color: #ffffff;
+  }
+
+  .icons {
+    width: 24px;
+    height: 24px;
+  }
+
+  .icons-section {
+    margin-left: 25px;
+    padding-bottom: 65px;
+  }
+
+  #i-icon {
+    margin-left: 15px;
+  }
+
+  #f-icon {
+    margin-left: 15px;
+  }
+
+  .newsletter-section {
+    background: #e76036;
+  }
+
+  .newsletter-title {
+    padding-top: 45px;
+    font-family: "Norwester";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .newsletter-desc {
+    margin-top: 25px;
+    font-family: "Kollektif";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 21px;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .form {
+    display: block;
+    text-align: center;
+    /* margin-top: 20px; */
+    /* margin-bottom: 100px; */
+    /* margin-left: auto; */
+    /* margin-right: auto;  */
+  }
+
+  form {
+    margin-top: 20px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    padding-bottom: 60px;
+  }
+
+  #email {
+    border: none;
+    width: 345px;
+    height: 40px;
+    border-radius: 11px;
+  }
+
+  input::placeholder {
+    font-family: "Kollektif";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 20px;
+  }
+
+  input[type="text"] {
+    font-family: "Kollektif";
+    font-style: normal;
+    font-weight: 700;
+    padding-left: 20px;
+    font-size: 20px;
+  }
+
+  footer {
+    background: #252525;
+    width: 393px;
+    height: 156px;
+  }
+
+  .footer-logo {
+    display: flex;
+    width: 96px;
+    height: 62.06px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+  }
+}
