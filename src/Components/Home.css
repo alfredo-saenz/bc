@@ -1,70 +1,88 @@
 @font-face {
-    font-family: norwester;
-    src: url(../Fonts/norwester\ copy.otf);
+  font-family: norwester;
+  src: url(../Fonts/norwester\ copy.otf);
 }
 .landing-section {
-    background-color: #EAE294;
+  background-color: #eae294;
 }
 
 .welcome {
-    font-family: norwester;
+  font-family: norwester;
 }
 
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 767px) {
+  .landing-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width: 345px;
+    height: 345px;
+  }
 
-    
-    .landing-img {
-        
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-        width: 345px;
-        height: 345px;
-       
-    }
-    
-    .welcome{
-        font-weight: 400;
-        font-size: 40px;
-        line-height: 48px;
-        text-align: center;
-        color: #FFFFFF;
-        
-    }
+  .welcome {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #ffffff;
+  }
 
-    
+  .landing-btn {
+    color: #ffffff;
+    border: none;
+    width: 143px;
+    height: 44px;
+    background: #f7cb15;
+    font-family: norwester;
+    font-weight: 400;
+    font-size: 16px;
+    /* border: 1px solid red; */
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+  }
 
-    .landing-btn {
-        color: #FFFFFF;
-        border: none;
-        width: 143px;
-        height: 44px;
-        background: #F7CB15;
-        font-family: norwester;
-        font-weight: 400;
-        font-size: 16px;
-        /* border: 1px solid red; */
-        margin-left: auto;
-        margin-right: auto;
-        cursor: pointer;
-        
-    }
+  .btn-group {
+    display: grid;
+    /* border: 1px solid red; */
+  }
 
-    .btn-group{
-        display: grid;
-        /* border: 1px solid red; */
-    }
+  #landing-btn1 {
+    margin-top: 34px;
+    margin-bottom: 10px;
+  }
 
-    #landing-btn1 {
-        margin-top: 34px;
-        margin-bottom: 10px;
-    }
-    
-    #landing-btn2 {
-        margin-top: 10px;
-        margin-bottom: 34px;
-    }
-    
- 
+  #landing-btn2 {
+    margin-top: 10px;
+    margin-bottom: 34px;
+  }
+
+  .our-history {
+    font-family: "Norwester";
+    font-size: 32px;
+    text-align: center;
+    color: #252525;
+    margin-top: 45px;
+  }
+
+  .about-us-story {
+    font-family: "Kollektif";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 23px;
+  }
+
+  .heart {
+    display: block;
+    width: 210px;
+    height: 210px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
