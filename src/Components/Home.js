@@ -6,6 +6,7 @@ import Heart from "../Images/Untitled_Artwork 8.png";
 import Twitter from "../Images/twitter-line.png";
 import Facebook from "../Images/facebook-box-line.png";
 import Instagram from "../Images/instagram-line.png";
+import Flogo from '../Images/Untitled_Artwork 7.png'
 
 function Home(props) {
   return (
@@ -75,6 +76,9 @@ function Home(props) {
           </form>
         </div>
       </div>
+      <footer>
+        <img className="footer-logo" src={Flogo}/>
+      </footer>
     </>
   );
 }
