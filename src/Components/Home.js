@@ -2,7 +2,10 @@ import React from "react";
 import Navbar from "./Navbar";
 import bcloc from "../Images/Untitled_Artwork 6.png";
 import "./Home.css";
-import Heart from '../Images/Untitled_Artwork 8.png'
+import Heart from "../Images/Untitled_Artwork 8.png";
+import Twitter from '../Images/twitter-line.png'
+import Facebook from '../Images/facebook-box-line.png'
+import Instagram from '../Images/instagram-line.png'
 
 function Home(props) {
   return (
@@ -31,10 +34,27 @@ function Home(props) {
           dishes. Our menu features a wide variety of classic Mexican favorites,
           including burritos, tacos, tortas, and more. So whether you're joining
           us for a special occasion or just a casual night out, we invite you to
-          experience the best Mexican cuisine in Kansas City at Burritos
-          Chiquita.
+          experience the best Mexican food in Kansas City at Burritos Chiquita.
         </p>
-        <img className="heart" src={Heart}/>
+        <img className="heart" src={Heart} />
+      </div>
+      <div className="location-section">
+        <h3 className="location-title">Come Visit Us</h3>
+        <p className="location-time">
+          Monday - Saturday : 7am - 8pm
+          <br />
+          Sunday : Closed
+        </p>
+        <p className="location-address">
+          1328 Minnesota Ave, Kansas City, KS 66102
+        </p>
+        <p className="location-contact">Tel : (913) 291-0118
+          <br/>
+          Email : info@burritoschiquita.com
+        </p>
+        <img src={Twitter}/>
+        <img src={Instagram}/>
+        <img src={Facebook}/>
       </div>
     </>
   );
