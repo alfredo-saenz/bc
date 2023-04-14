@@ -3,9 +3,9 @@ import Navbar from "./Navbar";
 import bcloc from "../Images/Untitled_Artwork 6.png";
 import "./Home.css";
 import Heart from "../Images/Untitled_Artwork 8.png";
-import Twitter from '../Images/twitter-line.png'
-import Facebook from '../Images/facebook-box-line.png'
-import Instagram from '../Images/instagram-line.png'
+import Twitter from "../Images/twitter-line.png";
+import Facebook from "../Images/facebook-box-line.png";
+import Instagram from "../Images/instagram-line.png";
 
 function Home(props) {
   return (
@@ -48,14 +48,31 @@ function Home(props) {
         <p className="location-address">
           1328 Minnesota Ave, Kansas City, KS 66102
         </p>
-        <p className="location-contact">Tel : (913) 291-0118
-          <br/>
+        <p className="location-contact">
+          Tel : (913) 291-0118
+          <br />
           Email : info@burritoschiquita.com
         </p>
-        <div className="icons-section">  
-        <img className="icons" is="t-icon" src={Twitter}/>
-        <img className="icons" id="i-icon" src={Instagram}/>
-        <img className="icons" id="f-icon" src={Facebook}/>
+        <div className="icons-section">
+          <img className="icons" is="t-icon" src={Twitter} />
+          <img className="icons" id="i-icon" src={Instagram} />
+          <img className="icons" id="f-icon" src={Facebook} />
+        </div>
+      </div>
+      <div className="newsletter-section">
+        <h1 className="newsletter-title">Sign Up</h1>
+        <h2 className="newsletter-desc">
+          Sign up to our Newsletter for Cuiquita Updates
+        </h2>
+        <div className="form">
+          <form>
+            <input
+              type="text"
+              id="email"
+              name="email"
+              placeholder="Email"
+            ></input>
+          </form>
         </div>
       </div>
     </>
