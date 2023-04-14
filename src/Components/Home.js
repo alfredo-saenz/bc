@@ -52,9 +52,11 @@ function Home(props) {
           <br/>
           Email : info@burritoschiquita.com
         </p>
-        <img src={Twitter}/>
-        <img src={Instagram}/>
-        <img src={Facebook}/>
+        <div className="icons-section">  
+        <img className="icons" is="t-icon" src={Twitter}/>
+        <img className="icons" id="i-icon" src={Instagram}/>
+        <img className="icons" id="f-icon" src={Facebook}/>
+        </div>
       </div>
     </>
   );
