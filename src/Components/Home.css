@@ -10,6 +10,14 @@
   font-family: norwester;
 }
 
+@media screen and (min-width: 1024px){
+
+  .landing-section{ 
+
+  }
+
+}
+
 
 @media only screen and (max-width: 767px) {
   .landing-img {
