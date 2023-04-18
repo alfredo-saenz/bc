@@ -10,14 +10,108 @@
   font-family: norwester;
 }
 
-@media screen and (min-width: 1024px){
-
-  .landing-section{ 
-
+@media screen and (min-width: 1024px) {
+  .landing-section {
+    display: flex;
+    justify-content: center;
+    width: 1605px;
+    height: 575px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
-}
+  .landing-img {
+    width: 747.44px;
+    height: 499.04px;
+  }
 
+  .welcome {
+    width: 530.44px;
+    height: 178px;
+    font-family: "Norwester";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 71.2px;
+    line-height: 85px;
+    text-align: center;
+    color: white;
+    padding: 150px 0px 20px 50px;
+  }
+
+  .landing-btn {
+    display: block;
+    color: #ffffff;
+    border: none;
+    width: 143px;
+    height: 44px;
+    background: #f7cb15;
+    font-family: norwester;
+    font-weight: 400;
+    font-size: 16px;
+    /* border: 1px solid red; */
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    margin: auto auto 15px auto;
+  }
+
+  .our-history {
+    margin-top: 75px;
+    font-family: "Norwester";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 38px;
+    text-align: center;
+
+    color: #252525;
+  }
+
+  .about-section {
+    margin-bottom: 10px;
+   
+  }
+
+  .about-content {
+    display: flex;
+    justify-content: center;
+    margin-top: 65px;
+  }
+
+  .about-us-story {
+    font-family: "Kollektif";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 32px;
+    text-align: center;
+    width: 561.91px;
+    height: 329px;
+  }
+
+  .heart {
+    width: 482px;
+    height: 482px;
+  }
+
+  .location-section {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1605px;
+    height: 577px;
+    background: #91cbd9;
+  }
+
+  .footer-logo {
+    display: flex;
+    width: 96px;
+    height: 62.06px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+  }
+}
 
 @media only screen and (max-width: 767px) {
   .landing-img {
@@ -97,6 +191,7 @@
   }
 
   .location-section {
+    margin-top: 30px;
     background: #91cbd9;
   }
 

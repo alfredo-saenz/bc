@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar";
-import bcloc from "../Images/Untitled_Artwork 6.png";
+import bcloc from "../Images/Untitled_Artwork 10.png";
 import "./Home.css";
 import Heart from "../Images/Untitled_Artwork 8.png";
 import Twitter from "../Images/twitter-line.png";
@@ -14,6 +14,7 @@ function Home(props) {
       <Navbar />
       <div className="landing-section">
         <img className="landing-img" src={bcloc} />
+        <div>  
         <h1 className="welcome">Welcome To Burritos Chiquita</h1>
         <div className="btn-group">
           <button className="landing-btn" id="landing-btn1">
@@ -23,9 +24,12 @@ function Home(props) {
             Pick Up
           </button>
         </div>
+        </div>
       </div>
       <div className="about-section">
         <h2 className="our-history">Our History</h2>
+        <div className="about-content"> 
+        <img className="heart" src={Heart} />
         <p className="about-us-story">
           Welcome to Burritos Chiquita, the best Mexican restaurant in Kansas
           City! Since our establishment in 2008, we have been dedicated to
@@ -37,7 +41,7 @@ function Home(props) {
           us for a special occasion or just a casual night out, we invite you to
           experience the best Mexican food in Kansas City at Burritos Chiquita.
         </p>
-        <img className="heart" src={Heart} />
+        </div>
       </div>
       <div className="location-section">
         <h3 className="location-title">Come Visit Us</h3>
