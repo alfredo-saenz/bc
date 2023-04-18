@@ -11,8 +11,8 @@ header .nav-btn {
 }
 @media screen and (min-width: 1024px) {
   .homelogo {
-    width: 128px;
-    height: 82.74px;
+    width: 106px;
+    height: 68.52px;
   }
 
   header {
@@ -20,14 +20,13 @@ header .nav-btn {
     align-items: center;
     justify-content: space-between;
     height: 111px;
-    width: 100%;
     padding: 0 2rem;
     background-color: #252525;
     color: #ffffff;
   }
 
   nav a {
-    margin-right: 0 2rem;
+    margin: 0 2rem;
     text-decoration: none;
     color: #ffffff;
     cursor: pointer;
