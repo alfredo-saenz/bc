@@ -1,3 +1,13 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  padding: 0 2rem;
+  color: #ffffff;
+  background: #252525;
+}
+
 header .nav-btn {
   padding: 5px;
   cursor: pointer;
@@ -8,6 +18,19 @@ header .nav-btn {
   visibility: hidden;
   opacity: 0;
   font-size: 1rem;
+}
+
+nav a {
+  margin: 0 2rem;
+  text-decoration: none;
+  color:#ffffff;
+  cursor: pointer;
+  font-family: norwester;
+}
+
+.homelogo {
+  width: 128px;
+  height: 82.74px;
 }
 
 @media only screen and (max-width: 767px) {
@@ -67,7 +90,4 @@ header .nav-btn {
   .navbar-logo {
     display: flex;
   }
-
-  
-  
 }
