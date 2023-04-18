@@ -45,6 +45,7 @@ function Home(props) {
       </div>
       <div className="location-section">
         <h3 className="location-title">Come Visit Us</h3>
+        <div className="location-content">
         <p className="location-time">
           Monday - Saturday : 7am - 8pm
           <br />
@@ -58,6 +59,7 @@ function Home(props) {
           <br />
           Email : info@burritoschiquita.com
         </p>
+        </div>
         <div className="icons-section">
           <img className="icons" is="t-icon" src={Twitter} />
           <img className="icons" id="i-icon" src={Instagram} />

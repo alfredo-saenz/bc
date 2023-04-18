@@ -69,7 +69,6 @@
 
   .about-section {
     margin-bottom: 10px;
-   
   }
 
   .about-content {
@@ -95,12 +94,50 @@
   }
 
   .location-section {
-    margin-top: 20px;
+    margin-top: 75px;
     margin-left: auto;
     margin-right: auto;
     width: 1605px;
     height: 577px;
     background: #91cbd9;
+  }
+
+  .location-title {
+    padding-top: 45px;
+    font-family: "Norwester";
+    font-size: 50px;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .location-time {
+    font-family: "Kollektif";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 35px;
+    color: #ffffff;
+  }
+
+  .location-address {
+    font-family: "Kollektif";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #ffffff;
+    margin-top: 50px;
+  }
+
+  .location-contact {
+    font-family: "Kollektif";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    padding-bottom: 69px;
+    color: #ffffff;
+    margin-top: 50px;
   }
 
   .footer-logo {
