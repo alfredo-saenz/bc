@@ -140,6 +140,74 @@
     margin-top: 50px;
   }
 
+  .newsletter-section {
+    width: 1605px;
+    height: 397px;
+    background: #e76036;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+  }
+
+  .newsletter-title {
+    font-family: "Norwester";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 38px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 75px;
+  }
+
+  .newsletter-desc {
+    font-family: "Kollektif";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 21px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 30px;
+  }
+
+  .form {
+    display: block;
+    text-align: center;
+  }
+
+  form {
+    margin-top: 20px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    padding-bottom: 60px;
+  }
+
+  #email {
+    border: none;
+    width: 345px;
+    height: 40px;
+    border-radius: 11px;
+  }
+
+  input::placeholder {
+    font-family: "Kollektif";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 20px;
+  }
+
+  input[type="text"] {
+    font-family: "Kollektif";
+    font-style: normal;
+    font-weight: 700;
+    padding-left: 20px;
+    font-size: 20px;
+  }
+
   .footer-logo {
     display: flex;
     width: 96px;
