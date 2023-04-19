@@ -88,6 +88,7 @@
   }
 
   .location-section {
+    margin-top: 30px;
     background: #91cbd9;
   }
 
@@ -223,7 +224,7 @@
 
   footer {
     background: #252525;
-    width: 393px;
+    width: 100%;
     height: 156px;
   }
 
@@ -234,5 +235,443 @@
     margin-left: auto;
     margin-right: auto;
     padding-top: 20px;
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  .landing-section {
+    height: 575px;
+  }
+
+  .landing-img {
+    width: 445.93px;
+    height: 297.73px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .welcome {
+    margin-top: 30px;
+    font-family: "Norwester";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .landing-btn {
+    width: 143px;
+    height: 44px;
+    background: #f7cb15;
+    font-family: "Norwester";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    border: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    color: white;
+  }
+
+  .our-history {
+    margin-top: 40px;
+    font-family: "Norwester";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 47.2615px;
+    line-height: 57px;
+    text-align: center;
+
+    color: #252525;
+  }
+
+  .heart {
+    width: 319px;
+    height: 319px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .about-us-story {
+    font-family: "Kollektif";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 33px;
+    text-align: center;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-bottom: 35px;
+    color: #252525;
+  }
+
+  .location-section {
+    background: #91cbd9;
+  }
+
+  .location-title {
+    padding-top: 40px;
+    font-family: "Norwester";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 47.2615px;
+    line-height: 57px;
+    text-align: center;
+
+    color: #ffffff;
+  }
+
+  .location-time {
+    width: 386px;
+    height: 71.61px;
+    font-family: "Kollektif";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22.3768px;
+    line-height: 39px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    color: #ffffff;
+  }
+
+  .location-address {
+    width: 386px;
+    height: 71.61px;
+    font-family: "Kollektif";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22.3768px;
+    line-height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    color: #ffffff;
+  }
+
+  .location-contact {
+    width: 386px;
+    height: 71.61px;
+    font-family: "Kollektif";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22.3768px;
+    line-height: 27px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    color: #ffffff;
+  }
+
+  .icons {
+    margin-left: 10px;
+  }
+
+  .icons-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding-bottom: 20px;
+  }
+
+  .newsletter-section {
+    background: #e76036;
+  }
+
+  .newsletter-title {
+    padding-top: 45px;
+    font-family: "Norwester";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .newsletter-desc {
+    margin-top: 25px;
+    font-family: "Kollektif";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 21px;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .form {
+    display: block;
+    text-align: center;
+  }
+
+  form {
+    margin-top: 20px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    padding-bottom: 60px;
+  }
+
+  #email {
+    border: none;
+    width: 345px;
+    height: 40px;
+    border-radius: 11px;
+  }
+
+  input::placeholder {
+    font-family: "Kollektif";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 20px;
+  }
+
+  input[type="text"] {
+    font-family: "Kollektif";
+    font-style: normal;
+    font-weight: 700;
+    padding-left: 20px;
+    font-size: 20px;
+  }
+
+  .footer-logo {
+    display: flex;
+    width: 96px;
+    height: 62.06px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+  }
+
+  footer {
+    background: #252525;
+    width: 100%;
+    height: 156px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .landing-section {
+    display: flex;
+    justify-content: center;
+    width: 1605px;
+    height: 575px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .landing-img {
+    width: 747.44px;
+    height: 499.04px;
+  }
+
+  .welcome {
+    width: 530.44px;
+    height: 178px;
+    font-family: "Norwester";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 71.2px;
+    line-height: 85px;
+    text-align: center;
+    color: white;
+    padding: 150px 0px 20px 50px;
+  }
+
+  .landing-btn {
+    display: block;
+    color: #ffffff;
+    border: none;
+    width: 143px;
+    height: 44px;
+    background: #f7cb15;
+    font-family: norwester;
+    font-weight: 400;
+    font-size: 16px;
+    /* border: 1px solid red; */
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    margin: auto auto 15px auto;
+  }
+
+  .our-history {
+    margin-top: 75px;
+    font-family: "Norwester";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 38px;
+    text-align: center;
+
+    color: #252525;
+  }
+
+  .about-section {
+    margin-bottom: 10px;
+  }
+
+  .about-content {
+    display: flex;
+    justify-content: center;
+    margin-top: 65px;
+  }
+
+  .about-us-story {
+    font-family: "Kollektif";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 32px;
+    text-align: center;
+    width: 561.91px;
+    height: 329px;
+  }
+
+  .heart {
+    width: 482px;
+    height: 482px;
+  }
+
+  .location-section {
+    margin-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1605px;
+    height: 577px;
+    background: #91cbd9;
+  }
+
+  .location-title {
+    padding-top: 45px;
+    font-family: "Norwester";
+    font-size: 50px;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .location-time {
+    font-family: "Kollektif";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 35px;
+    color: #ffffff;
+  }
+
+  .location-address {
+    font-family: "Kollektif";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #ffffff;
+    margin-top: 50px;
+  }
+
+  .location-contact {
+    font-family: "Kollektif";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    padding-bottom: 69px;
+    color: #ffffff;
+    margin-top: 50px;
+  }
+
+  .newsletter-section {
+    width: 1605px;
+    height: 397px;
+    background: #e76036;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .newsletter-title {
+    font-family: "Norwester";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 38px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 75px;
+  }
+
+  .newsletter-desc {
+    font-family: "Kollektif";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 21px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 30px;
+  }
+
+  .form {
+    display: block;
+    text-align: center;
+  }
+
+  form {
+    margin-top: 20px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    padding-bottom: 60px;
+  }
+
+  #email {
+    border: none;
+    width: 345px;
+    height: 40px;
+    border-radius: 11px;
+  }
+
+  input::placeholder {
+    font-family: "Kollektif";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 20px;
+  }
+
+  input[type="text"] {
+    font-family: "Kollektif";
+    font-style: normal;
+    font-weight: 700;
+    padding-left: 20px;
+    font-size: 20px;
+  }
+
+  .footer-logo {
+    display: flex;
+    width: 96px;
+    height: 62.06px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+  }
+
+  footer {
+    background: #252525;
+    width: 100%;
+    height: 156px;
   }
 }
